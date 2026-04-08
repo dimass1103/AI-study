@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Unicorn Catcher",
+    "slug": "unicorn-catcher",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFB6C1"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.unicorncatcher.game"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFB6C1"
+      },
+      "package": "com.unicorncatcher.game"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

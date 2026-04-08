@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node *)",
+      "Bash(npx *)",
+      "Bash(pkill *)",
+      "Bash(sleep *)",
+      "Bash(rsync *)",
+      "Bash(curl *)",
+      "Bash(open *)",
+      "Bash(which *)",
+      "Bash($home/.local/bin/npm *)",
+      "Bash(tail *)"
+    ]
+  },
+  "$version": 3
+}
